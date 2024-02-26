@@ -3,6 +3,7 @@
 <head>
     <title>Javascript sample</title>
     <style>
+
         #divContainer {
             text-align: center;
         }
@@ -21,6 +22,7 @@
         /*  */
         div {
             margin-bottom: 1rem;
+            
             font-size: large;
         }
     </style>
@@ -29,9 +31,9 @@
 <body>
     <div id="divContainer">
         <h1>login</h1>
-        <div><input type="text" placeholder="username"> </div>
-        <div><input type="password" placeholder="password" class="redtext"></div>
-        <div><button id="buttonlogin">Login</button></div>
+        <div><input type="text" placeholder="username" class="redText"> </div>
+        <div><input type="password" placeholder="password" class="redText"></div>
+        <div><button id="buttonLogin">Login</button></div>
     </div>
 </body>
 <script>
@@ -40,9 +42,9 @@
 
     console.log("hello world", 1+1);
 
-    let buttonlogin = document.querySelector("#buttonlogin")
+    let buttonLogin = document.querySelector("#buttonogin")
     buttonLogin.onclick = function () {
-        alert("login successful");
+        alert("Login successful");
     } 
 </script>
 
