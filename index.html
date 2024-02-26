@@ -6,28 +6,44 @@
         #divContainer {
             text-align: center;
         }
-
+        /* pang class name */
         .redText {
             color: red;
             background-color: #bebebe;
+            margin: 1rem;
         }
-        
+
+        /* sample ng may event */
         .redText:hover {
             color: blue;
             background-color: lime;
         }
+        /*  */
         div {
             margin-bottom: 1rem;
             font-size: large;
         }
     </style>
 </head>
+
 <body>
     <div id="divContainer">
-    <h1>login</h1>
-    <div><input type="text" placeholder="username"> </div>
-    <div><input type="password" placeholder="password" class="redtext"></div>
-    <div><button>login</button></div>
+        <h1>login</h1>
+        <div><input type="text" placeholder="username"> </div>
+        <div><input type="password" placeholder="password" class="redtext"></div>
+        <div><button id="buttonlogin">Login</button></div>
     </div>
 </body>
+<script>
+    /* javascript*/
+    alert("hello world");
+
+    console.log("hello world", 1+1);
+
+    let buttonlogin = document.querySelector("#buttonlogin")
+    buttonLogin.onclick = function () {
+        alert("login successful");
+    } 
+</script>
+
 </html>
